@@ -1,0 +1,19 @@
+{
+    "name": "zonuexe/attr-validator",
+    "license": "FSFAP",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "files": ["src/functions.php"],
+        "psr-4": {
+            "zonuexe\\AttrValidator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests"]
+    }
+}
